@@ -1,4 +1,16 @@
 # Simple-Calculator-
 Simple Calculator using React.js
 
-![](Screenshot (77).png)
+DESKTOP VIEW
+
+
+
+<img src = "./Screenshot (77).png">
+
+
+
+MOBILE VIEW
+
+
+
+<img src = "./Screenshot (79).png">
