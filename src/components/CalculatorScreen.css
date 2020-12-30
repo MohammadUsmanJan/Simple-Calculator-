@@ -1,0 +1,19 @@
+.Screen{
+    margin-top:0px;
+    width:7000px;
+    height:18vh;
+    background-color: rgb(128, 119, 119);
+    border: 2px red solid;
+}
+
+.Screen > h1{
+    padding-top:10px;
+    font-size:200px;
+}
+
+@media screen and (max-width:768px)
+{
+    .Screen > h1{
+        font-size:50px;
+    }
+}

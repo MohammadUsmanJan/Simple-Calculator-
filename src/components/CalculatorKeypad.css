@@ -1,0 +1,125 @@
+.buttons > button{
+    height:16vh;
+    font-size: 100px;
+}
+
+
+
+
+.buttons{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap:0px 0px;
+}
+
+.dot{
+    padding-right:400px;
+    padding-bottom:50px;
+    background-color:orange;
+}
+
+
+
+.equalto{
+    background-color: rgb(216, 75, 75);
+}
+
+.AC{
+    background-color: rgb(201, 148, 128);
+}
+
+.zero{
+    background-color:magenta;
+}
+
+.one{
+    background-color:rgb(231, 231, 101);
+}
+
+.two{
+    background-color: lightblue;
+}
+
+.three{
+    background-color:lightpink;
+}
+
+.four{
+    background-color:lightcoral;
+}
+
+.five{
+    background-color:rgb(201, 74, 201);
+}
+
+.six{
+    background-color:lightgreen;
+}
+
+.seven{
+    background-color:lightblue;
+}
+
+.eight{
+    background-color:tan;
+}
+
+.nine{
+    background-color:steelblue;
+}
+
+.minus{
+    background-color:royalblue;
+}
+
+.plus{
+    background-color:rgb(139, 88, 43)
+}
+
+.multiply{
+    background-color:peru
+}
+
+.divide{
+    background-color:rebeccapurple
+}
+
+.per{
+    background-color: turquoise;
+}
+
+.bottom{
+
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    height:16vh;
+    width:6500px;
+    font-size: 100px;
+}
+
+.bottom button{
+
+
+    height:16vh;
+    font-size: 100px;
+}
+
+
+
+@media screen and  (max-width: 786px) {
+    
+    .buttons > button{
+        font-size: 50px;
+    }
+    
+    .bottom button{
+        font-size: 50px;
+    }
+    .bottom{
+        width:380px;
+    }
+    .dot{
+        padding-left:50px;
+    }
+    
+  }
