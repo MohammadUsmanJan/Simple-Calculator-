@@ -8,20 +8,7 @@ const CalculatorKeypad = () => {
     const [firstNum , setFirstNum] = useState(" ");
     
    
-  
 
-    // function Handler(val){
-
-    //     if(operation === "0")
-    //     {
-    //         setFirstNum(val+ firstNum);
-    //         console.log(firstNum)
-    //     }
-    //     else{
-    //         setSecondNum(val + secondNum)
-    //     }
-        
-    // }
 
     function Result()
     {
@@ -61,14 +48,16 @@ const CalculatorKeypad = () => {
                 <button value = {2} className = "two" onClick = {(e) => setFirstNum(firstNum + e.target.value)}>2</button>
                 <button value = {3} className = "three" onClick = {(e) => setFirstNum(firstNum + e.target.value)}>3</button>
                 <button value = "+" className = "plus" onClick = {(e) => setFirstNum(firstNum + e.target.value)}>+</button>
+                </div>
                 <div className = "bottom">
                 <button value = {0} className = "zero" onClick = {(e) => setFirstNum(firstNum + e.target.value)}>0</button>
                 <button value = "." className = "dot" onClick = {(e) => setFirstNum(firstNum + e.target.value)}>.</button>
                 <button value = "=" className = "equalto" onClick = {Result}>=</button>
                 </div>
-            </div>
+            
         </div>
     )
 }
 
 export default CalculatorKeypad
+
