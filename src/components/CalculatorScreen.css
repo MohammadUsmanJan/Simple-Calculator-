@@ -8,12 +8,16 @@
 
 .Screen > h1{
     padding-top:10px;
-    font-size:200px;
+    font-size:50px;
 }
 
 @media screen and (max-width:768px)
 {
+    .Screen{
+        width:762px;
+    }
     .Screen > h1{
-        font-size:50px;
+        font-size:30px;
+      
     }
 }
