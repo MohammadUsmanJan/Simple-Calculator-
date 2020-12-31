@@ -13,8 +13,6 @@
 }
 
 .dot{
-    padding-right:400px;
-    padding-bottom:50px;
     background-color:orange;
 }
 
@@ -91,10 +89,10 @@
 .bottom{
 
     display:grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr 1fr 1fr;
     height:16vh;
-    width:6500px;
     font-size: 100px;
+    border: 2px red solid;
 }
 
 .bottom button{
@@ -106,7 +104,7 @@
 
 
 
-@media screen and  (max-width: 786px) {
+@media screen and  (max-width: 768px) {
     
     .buttons > button{
         font-size: 50px;
@@ -116,7 +114,7 @@
         font-size: 50px;
     }
     .bottom{
-        width:380px;
+        width:762px;
     }
     .dot{
         padding-left:50px;
