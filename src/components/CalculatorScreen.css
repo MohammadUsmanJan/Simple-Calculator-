@@ -1,17 +1,17 @@
 .Screen{
     margin-top:0px;
-    width:7000px;
-    height:18vh;
+    width:100vw;
+    height:25vh;
     background-color: rgb(128, 119, 119);
     border: 2px red solid;
 }
 
 .Screen > h1{
     padding-top:10px;
-    font-size:50px;
+    font-size:50%;
 }
 
-@media screen and (max-width:768px)
+/* @media screen and (max-width:768px)
 {
     .Screen{
         width:762px;
@@ -20,4 +20,4 @@
         font-size:30px;
       
     }
-}
+} */
