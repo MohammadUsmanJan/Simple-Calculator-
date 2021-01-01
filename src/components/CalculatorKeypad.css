@@ -1,6 +1,6 @@
 .buttons > button{
-    height:16vh;
-    font-size: 100px;
+    height:15vh;
+    font-size: 40%;
 }
 
 
@@ -91,33 +91,25 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     height:16vh;
-    font-size: 100px;
     border: 2px red solid;
 }
 
 .bottom button{
 
 
-    height:16vh;
-    font-size: 100px;
+    height:15vh;
+    font-size: 40%;
 }
 
 
 
-@media screen and  (max-width: 768px) {
+/* @media screen and  (max-width: 768px) {
     
-    .buttons > button{
-        font-size: 50px;
-    }
-    
-    .bottom button{
-        font-size: 50px;
-    }
     .bottom{
-        width:762px;
+        width:100vw;
     }
     .dot{
         padding-left:50px;
     }
     
-  }
+  } */
